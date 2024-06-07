@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T20:18:15 BST" name="Suite1" finished-at="2024-06-06T20:18:29 BST" duration-ms="14639">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_001_ValidateLogin.validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" name="validLogin" class="testCases.TC_001_ValidateLogin"/>
+        <method signature="TC_002_AddItemsToCart.addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" name="addSixItemsToCart" class="testCases.TC_002_AddItemsToCart"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_ValidateLogin.validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" name="validLogin" class="testCases.TC_001_ValidateLogin"/>
+        <method signature="TC_002_AddItemsToCart.addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" name="addSixItemsToCart" class="testCases.TC_002_AddItemsToCart"/>
+        <method signature="TC_003_CheckOutSixItems.checkOutSixItems()[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" name="checkOutSixItems" class="testCases.TC_003_CheckOutSixItems"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-06-06T20:18:15 BST" name="Regression" finished-at="2024-06-06T20:18:29 BST" duration-ms="14639">
+      <class name="testCases.TC_002_AddItemsToCart">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" started-at="2024-06-06T20:18:21 BST" name="Setup" finished-at="2024-06-06T20:18:23 BST" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" started-at="2024-06-06T20:18:23 BST" name="addSixItemsToCart" finished-at="2024-06-06T20:18:24 BST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSixItemsToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" started-at="2024-06-06T20:18:24 BST" name="closeBrowser" finished-at="2024-06-06T20:18:24 BST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_002_AddItemsToCart -->
+      <class name="testCases.TC_001_ValidateLogin">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" started-at="2024-06-06T20:18:15 BST" name="Setup" finished-at="2024-06-06T20:18:19 BST" duration-ms="4194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" started-at="2024-06-06T20:18:19 BST" name="validLogin" finished-at="2024-06-06T20:18:20 BST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" started-at="2024-06-06T20:18:20 BST" name="closeBrowser" finished-at="2024-06-06T20:18:21 BST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_001_ValidateLogin -->
+      <class name="testCases.TC_003_CheckOutSixItems">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" started-at="2024-06-06T20:18:24 BST" name="Setup" finished-at="2024-06-06T20:18:27 BST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="checkOutSixItems()[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" started-at="2024-06-06T20:18:27 BST" name="checkOutSixItems" finished-at="2024-06-06T20:18:29 BST" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutSixItems -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" started-at="2024-06-06T20:18:29 BST" name="closeBrowser" finished-at="2024-06-06T20:18:29 BST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_003_CheckOutSixItems -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>

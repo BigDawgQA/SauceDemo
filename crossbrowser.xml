@@ -1,0 +1,36 @@
+<suite name="Suite1" parallel="test" thread-count="5">
+    <!--<suite name="Suite1" verbose="1"> -->
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+
+    <test name="ChromeTest">
+
+        <parameter name="os"  value="Windows" />
+        <parameter name="browser"  value="chrome" />
+
+        <classes>
+            <class name="testCases.TC_001_ValidateLogin"/>
+            <class name="testCases.TC_002_AddItemsToCart"/>
+            <class name="testCases.TC_003_CheckOutSixItems"/>
+        </classes>
+
+    </test>
+
+    <test name="EdgeTest">
+
+        <parameter name="os"  value="Windows" />
+        <parameter name="browser"  value="edge" />
+
+        <classes>
+            <class name="testCases.TC_001_ValidateLogin"/>
+            <class name="testCases.TC_002_AddItemsToCart"/>
+            <class name="testCases.TC_003_CheckOutSixItems"/>
+        </classes>
+
+    </test>
+
+
+</suite>
