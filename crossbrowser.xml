@@ -19,7 +19,7 @@
 
     </test>
 
-    <test name="EdgeTest">
+    <test name="Edge_Testing">
 
         <parameter name="os"  value="Windows" />
         <parameter name="browser"  value="edge" />
