@@ -20,7 +20,7 @@ public class TC_003_CheckOutSixItems extends TestBase {
         ProductPage pp2 = new ProductPage(driver);
         pp2.sortProductsItems();
         pp2.addSixItems();
-        Assert.assertTrue(pp2.checkFourItemsAddedToCart());
+        Assert.assertTrue(pp2.checkSixItemsAddedToCart());
         pp2.clickFilterButton();
 
 

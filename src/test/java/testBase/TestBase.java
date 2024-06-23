@@ -54,11 +54,15 @@ public class TestBase {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
+
             if(os.equalsIgnoreCase("windows")){
                 capabilities.setPlatform(Platform.WINDOWS);
             }
             else if(os.equalsIgnoreCase("mac")){
                 capabilities.setPlatform(Platform.MAC);
+            }
+            else if(os.equalsIgnoreCase("linux")){
+                capabilities.setPlatform(Platform.LINUX);
             }
             else{
                 System.out.println("No matching OS");
@@ -71,6 +75,9 @@ public class TestBase {
                     break;
                 case "edge" :
                     capabilities.setBrowserName("MicrosoftEdge");
+                    break;
+                case "firefox" :
+                    capabilities.setBrowserName("firefox");
                     break;
                 default:
                     System.out.println("NO matching browser");

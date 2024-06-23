@@ -1,12 +1,13 @@
+testCases\TC_002_AddItemsToCart.class
+pageObject\CheckOutInfoPage.class
+testCases\TC_001_ValidateLogin.class
+pageObject\CheckOverviewPage.class
 pageObject\ProductPage.class
 testBase\TestBase.class
-testCases\TC_002_AddItemsToCart.class
+dockerPackage\SetupDocker.class
 utilities\ExtentReportManager.class
-pageObject\CheckOutInfoPage.class
 testCases\TC_003_CheckOutSixItems.class
 pageObject\CheckOutCompletePage.class
 pageObject\BasePage.class
 pageObject\YourCartPage.class
-testCases\TC_001_ValidateLogin.class
-pageObject\CheckOverviewPage.class
 pageObject\LoginPage.class

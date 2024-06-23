@@ -131,21 +131,6 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_003_CheckOutSixItems</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkOutSixItems">
-                  </a> <!-- checkOutSixItems -->
-                  <span class="method-name">checkOutSixItems</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testCases.TC_001_ValidateLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -173,6 +158,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_003_CheckOutSixItems</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutSixItems">
+                  </a> <!-- checkOutSixItems -->
+                  <span class="method-name">checkOutSixItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -183,13 +183,14 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite1&quot; verbose=&quot;0&quot;&gt;
-  &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;linux&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;dockerPackage.SetupDocker&quot;/&gt;
       &lt;class name=&quot;testCases.TC_001_ValidateLogin&quot;/&gt;
       &lt;class name=&quot;testCases.TC_002_AddItemsToCart&quot;/&gt;
       &lt;class name=&quot;testCases.TC_003_CheckOutSixItems&quot;/&gt;
@@ -206,7 +207,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression (3 classes)</span>
+                <span class="test-name">Regression (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,20 +265,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkOutSixItems')
 data.setCell(0, 2, 'testCases.TC_003_CheckOutSixItems')
-data.setCell(0, 3, 2375);
+data.setCell(0, 3, 4575);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addSixItemsToCart')
 data.setCell(1, 2, 'testCases.TC_002_AddItemsToCart')
-data.setCell(1, 3, 1141);
+data.setCell(1, 3, 3613);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validLogin')
 data.setCell(2, 2, 'testCases.TC_001_ValidateLogin')
-data.setCell(2, 3, 671);
+data.setCell(2, 3, 2000);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -303,49 +304,63 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">dockerPackage.SetupDocker</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startDocker</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_001_ValidateLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">Setup(Windows, chrome)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">Setup(linux, chrome)</span>
+                <span class="method-start">15419 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validLogin</span>
-                <span class="method-start">4221 ms</span>
+                <span class="method-start">36026 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">5040 ms</span>
+                <span class="method-start">38507 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002_AddItemsToCart</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">Setup(Windows, chrome)</span>
-                <span class="method-start">6008 ms</span>
+                <span class="method-name">Setup(linux, chrome)</span>
+                <span class="method-start">45583 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addSixItemsToCart</span>
-                <span class="method-start">7514 ms</span>
+                <span class="method-start">53857 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8660 ms</span>
+                <span class="method-start">57485 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_003_CheckOutSixItems</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">Setup(Windows, chrome)</span>
-                <span class="method-start">9358 ms</span>
+                <span class="method-name">Setup(linux, chrome)</span>
+                <span class="method-start">59898 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkOutSixItems</span>
-                <span class="method-start">11451 ms</span>
+                <span class="method-start">64894 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">13829 ms</span>
+                <span class="method-start">69473 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dockerPackage.SetupDocker</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">stopDocker</span>
+                <span class="method-start">72461 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -24,7 +24,7 @@ public class TC_002_AddItemsToCart extends TestBase {
         pp.sortProductsItems();
         pp.addSixItems();
 
-        Assert.assertTrue(pp.checkFourItemsAddedToCart());
+        Assert.assertTrue(pp.checkSixItemsAddedToCart());
         pp.clickFilterButton();
 
 

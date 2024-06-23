@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-06T20:18:15 BST" name="Suite1" finished-at="2024-06-06T20:18:29 BST" duration-ms="14639">
+  <suite started-at="2024-06-23T12:52:47 BST" name="Suite1" finished-at="2024-06-23T12:54:11 BST" duration-ms="83756">
     <groups>
       <group name="sanity">
-        <method signature="TC_001_ValidateLogin.validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" name="validLogin" class="testCases.TC_001_ValidateLogin"/>
-        <method signature="TC_002_AddItemsToCart.addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" name="addSixItemsToCart" class="testCases.TC_002_AddItemsToCart"/>
+        <method signature="TC_001_ValidateLogin.validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@5b64c4b7]" name="validLogin" class="testCases.TC_001_ValidateLogin"/>
+        <method signature="TC_002_AddItemsToCart.addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@4763c727]" name="addSixItemsToCart" class="testCases.TC_002_AddItemsToCart"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_ValidateLogin.validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" name="validLogin" class="testCases.TC_001_ValidateLogin"/>
-        <method signature="TC_002_AddItemsToCart.addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" name="addSixItemsToCart" class="testCases.TC_002_AddItemsToCart"/>
-        <method signature="TC_003_CheckOutSixItems.checkOutSixItems()[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" name="checkOutSixItems" class="testCases.TC_003_CheckOutSixItems"/>
+        <method signature="TC_001_ValidateLogin.validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@5b64c4b7]" name="validLogin" class="testCases.TC_001_ValidateLogin"/>
+        <method signature="TC_002_AddItemsToCart.addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@4763c727]" name="addSixItemsToCart" class="testCases.TC_002_AddItemsToCart"/>
+        <method signature="TC_003_CheckOutSixItems.checkOutSixItems()[pri:0, instance:testCases.TC_003_CheckOutSixItems@72445aba]" name="checkOutSixItems" class="testCases.TC_003_CheckOutSixItems"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-06-06T20:18:15 BST" name="Regression" finished-at="2024-06-06T20:18:29 BST" duration-ms="14639">
+    <test started-at="2024-06-23T12:52:47 BST" name="Regression" finished-at="2024-06-23T12:54:11 BST" duration-ms="83756">
       <class name="testCases.TC_002_AddItemsToCart">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" started-at="2024-06-06T20:18:21 BST" name="Setup" finished-at="2024-06-06T20:18:23 BST" duration-ms="1504" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_AddItemsToCart@4763c727]" started-at="2024-06-23T12:53:34 BST" name="Setup" finished-at="2024-06-23T12:53:42 BST" duration-ms="8272" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -32,21 +32,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" started-at="2024-06-06T20:18:23 BST" name="addSixItemsToCart" finished-at="2024-06-06T20:18:24 BST" duration-ms="1141" status="PASS">
+        <test-method signature="addSixItemsToCart()[pri:0, instance:testCases.TC_002_AddItemsToCart@4763c727]" started-at="2024-06-23T12:53:42 BST" name="addSixItemsToCart" finished-at="2024-06-23T12:53:46 BST" duration-ms="3613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSixItemsToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_AddItemsToCart@9ed238c]" started-at="2024-06-06T20:18:24 BST" name="closeBrowser" finished-at="2024-06-06T20:18:24 BST" duration-ms="697" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_002_AddItemsToCart@4763c727]" started-at="2024-06-23T12:53:46 BST" name="closeBrowser" finished-at="2024-06-23T12:53:48 BST" duration-ms="2411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_002_AddItemsToCart -->
       <class name="testCases.TC_001_ValidateLogin">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" started-at="2024-06-06T20:18:15 BST" name="Setup" finished-at="2024-06-06T20:18:19 BST" duration-ms="4194" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_ValidateLogin@5b64c4b7]" started-at="2024-06-23T12:53:04 BST" name="Setup" finished-at="2024-06-23T12:53:24 BST" duration-ms="20579" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -58,21 +58,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" started-at="2024-06-06T20:18:19 BST" name="validLogin" finished-at="2024-06-06T20:18:20 BST" duration-ms="671" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:testCases.TC_001_ValidateLogin@5b64c4b7]" started-at="2024-06-23T12:53:24 BST" name="validLogin" finished-at="2024-06-23T12:53:26 BST" duration-ms="2000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_ValidateLogin@458342d3]" started-at="2024-06-06T20:18:20 BST" name="closeBrowser" finished-at="2024-06-06T20:18:21 BST" duration-ms="966" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_ValidateLogin@5b64c4b7]" started-at="2024-06-23T12:53:27 BST" name="closeBrowser" finished-at="2024-06-23T12:53:34 BST" duration-ms="7064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TC_001_ValidateLogin -->
+      <class name="dockerPackage.SetupDocker">
+        <test-method is-config="true" signature="startDocker()[pri:0, instance:dockerPackage.SetupDocker@7bc10d84]" started-at="2024-06-23T12:52:48 BST" name="startDocker" finished-at="2024-06-23T12:53:04 BST" duration-ms="15150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDocker -->
+        <test-method is-config="true" signature="stopDocker()[pri:0, instance:dockerPackage.SetupDocker@7bc10d84]" started-at="2024-06-23T12:54:01 BST" name="stopDocker" finished-at="2024-06-23T12:54:11 BST" duration-ms="10080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDocker -->
+      </class> <!-- dockerPackage.SetupDocker -->
       <class name="testCases.TC_003_CheckOutSixItems">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" started-at="2024-06-06T20:18:24 BST" name="Setup" finished-at="2024-06-06T20:18:27 BST" duration-ms="2092" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_CheckOutSixItems@72445aba]" started-at="2024-06-23T12:53:48 BST" name="Setup" finished-at="2024-06-23T12:53:53 BST" duration-ms="4994" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -84,11 +94,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="checkOutSixItems()[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" started-at="2024-06-06T20:18:27 BST" name="checkOutSixItems" finished-at="2024-06-06T20:18:29 BST" duration-ms="2375" status="PASS">
+        <test-method signature="checkOutSixItems()[pri:0, instance:testCases.TC_003_CheckOutSixItems@72445aba]" started-at="2024-06-23T12:53:53 BST" name="checkOutSixItems" finished-at="2024-06-23T12:53:58 BST" duration-ms="4575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOutSixItems -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_003_CheckOutSixItems@56276db8]" started-at="2024-06-06T20:18:29 BST" name="closeBrowser" finished-at="2024-06-06T20:18:29 BST" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_003_CheckOutSixItems@72445aba]" started-at="2024-06-23T12:53:58 BST" name="closeBrowser" finished-at="2024-06-23T12:54:01 BST" duration-ms="2987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

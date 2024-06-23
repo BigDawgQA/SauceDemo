@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class CheckOverviewPage extends BasePage{
 
-    WebDriver driver;
+    //WebDriver driver;
 
     public CheckOverviewPage(WebDriver driver){
 

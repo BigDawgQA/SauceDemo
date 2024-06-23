@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ProductPage extends BasePage{
 
-    WebDriver driver;
+    //WebDriver driver;
 
     public ProductPage(WebDriver driver) {
 
@@ -50,7 +50,7 @@ public class ProductPage extends BasePage{
 
     }
 
-    public boolean checkFourItemsAddedToCart(){
+    public boolean checkSixItemsAddedToCart(){
 
         int sizeOfRemoveButton = itemRemoveButton.size();
 
